@@ -1,0 +1,6 @@
+import streamlit as st
+import langchain_helper as lch
+
+st.title(" names for kids ")
+
+names_generating = st.sidebar.selection(("what is the name "),"1.Saindhavi","2.hema","3.sai ")
