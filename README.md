@@ -5,7 +5,7 @@ from langchain_openai import openAI
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
-openai.api_key="sk-proj-bA9164MBTgpiULEeso1gT3BlbkFJo0HdVST7iWrokQPK5rIM"
+"
 
 if openai.api_key.startswith("sk-"):
     llm = openAI(temperature=0.8)
